@@ -1,6 +1,7 @@
 ---
 # File: docs/github/new.md
 title: "GitHub for New Members"
+nav_category: "GitHub"
 nav_order: 20
 ---
 

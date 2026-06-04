@@ -1,6 +1,7 @@
 ---
 # File: docs/standards/coding.md
 title: "Coding Standards"
+nav_category: "Standards"
 nav_order: 45
 ---
 

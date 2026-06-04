@@ -1,6 +1,7 @@
 ---
 # File: docs/standards/electronics.md
 title: "Electronics Standards"
+nav_category: "Standards"
 nav_order: 50
 ---
 
