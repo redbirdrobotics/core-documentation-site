@@ -1,10 +1,10 @@
 ---
-layout: post
-title: "GitHub New Members Guide"
-description: "First steps to take if you are a new member trying to get started with the GitHub Organization."
+# File: github/new-to-github.md
+title: "New Members"
+nav_order: 10
 ---
 
-# Redbird Robotics: New Member Guide
+# New Member Guide
 
 Welcome to Redbird Robotics! This guide walks you through your **first day with GitHub**, so you can start contributing to projects safely and efficiently. No prior experience is required.
 

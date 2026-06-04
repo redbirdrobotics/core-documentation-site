@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "GitHub Setup"
-description: "Steps to get GitHub set up for code contribution and backup."
+# File: github/github-setup.md
+title: "GitHub Setup Guide"
+nav_order: 20
 ---
 
 # GitHub Setup Guide
