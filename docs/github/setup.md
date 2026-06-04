@@ -11,11 +11,12 @@ This guide will help you set up GitHub for all Redbird Robotics projects. We rec
 
 - [Installing GitHub Desktop](#installing)
 - [Setting Up GitHub Desktop](#setting-up)
-- [Cloning Repositories](#cloning)
-- [Committing Changes](#committing)
-- [Pushing and Pulling Work](#pushing-pulling)
-- [Creating Repositories](#creating)
-- [Creating Pull Requests and Merging Work](#prs)
+- *Using GitHub*
+  - [Cloning Repositories](#cloning)
+  - [Committing Changes](#committing)
+  - [Pushing and Pulling Work](#pushing-pulling)
+  - [Creating Repositories](#creating)
+  - [Creating Pull Requests and Merging Work](#prs)
 
 ---
 
@@ -75,15 +76,47 @@ To the left of the page you will see "Your repositories" which are all of the re
 
 To the right are the options to Create a new repo, Cloning one from a link or your list, or options from uploading or creating them from a local file. You will mostly only be using the top two options for the majority of your time using Git and GitHub.
 
-# Using GitHub - Cloning Repositories {#cloning}
+# Using GitHub
 
-# Using GitHub - Committing Changes {#committing}
+---
 
-# Using GitHub - Pushing and Pulling Work {#pushing-pulling}
+## Cloning Repositories {#cloning}
 
-# Using GitHub - Creating Repositories {#creating}
+Pulling work from existing repositories.
 
-# Using GitHub - Pull Requests and Merging {#prs}
+---
+
+## Committing Changes {#committing}
+
+Committing changes you've made and keeping track of it.
+
+---
+
+## Using Branches To Split Work
+
+How branches are used to keep different projects separate at the same time.
+
+---
+
+## Pushing and Pulling Work {#pushing-pulling}
+
+Transferring work to and from the cloud for collaboration.
+
+---
+
+## Creating Repositories {#creating}
+
+How to create repositories.
+
+### Starting From GitHub Desktop
+
+### Starting From github.com
+
+---
+
+## Pull Requests and Merging {#prs}
+
+Merging work together.
 
 ## 1. Create a GitHub Account
 
