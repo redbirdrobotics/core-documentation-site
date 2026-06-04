@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: home
 title: "Documentation Home"
+nav_order: 0
 ---
 
 # Redbird Documentation
