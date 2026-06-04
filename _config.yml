@@ -3,3 +3,4 @@ remote_theme: just-the-docs/just-the-docs
 title: "Core Documentation"
 author: "speedrobotics@louisville.edu"
 description: "The Redbird Robotics documentation site."
+favicon_png: "/assets/images/favicon.png"
