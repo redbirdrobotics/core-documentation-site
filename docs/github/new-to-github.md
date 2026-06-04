@@ -1,7 +1,7 @@
 ---
 # File: docs/github/new-to-github.md
-title: "New Members"
-nav_order: 10
+title: "GitHub for New Members"
+nav_order: 20
 ---
 
 # New Member Guide
