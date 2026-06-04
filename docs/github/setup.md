@@ -1,5 +1,5 @@
 ---
-# File: docs/github/github-setup.md
+# File: docs/github/setup.md
 title: "GitHub Setup Guide"
 nav_order: 25
 ---
