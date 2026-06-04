@@ -23,7 +23,7 @@ This guide will help you set up GitHub for all Redbird Robotics projects. We rec
 
 You can get a quick link to installing GitHub Desktop through [the official download site](https://desktop.github.com/download/). This page provides the download for both the Windows and MacOS versions of GitHub Desktop.
 
-![GitHub Desktop download site](assets/images/github-setup/github-desktop-download-site.png)
+![GitHub Desktop download site]({{site.baseurl}}/assets/images/github-setup/github-desktop-download-site.png)
 
 Select the option that relates to you and download the program. Once downloaded, follow through with the installation as with any other program. Once it's done pull up the program to begin setup.
 
