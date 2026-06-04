@@ -35,7 +35,7 @@ Select the option that relates to you and download the program. Once downloaded,
 
 Once the program is installed and opened for the first time you screen will prompt you to "Sign in to GitHub.com". This requires you to have had a GitHub account set up prior but if you haven't created one you will have the opportunity in the following steps.
 
-![GitHub Deskop first time launch screen](/assets/images/github-setup/first-time-launch.png)
+![GitHub Deskop first time launch screen]({{site.baseurl}}/assets/images/github-setup/first-time-launch.png)
 
 Press the "Sign in" button to proceed to the next step.
 
@@ -43,7 +43,7 @@ Press the "Sign in" button to proceed to the next step.
 
 Once you press the button a browser window will pop up. If you have already signed into GitHub on that browser before you will be prompted to continue with that account.
 
-![GitHub sign into account page](/assets/images/github-setup/logging-in.png)
+![GitHub sign into account page]({{site.baseurl}}/assets/images/github-setup/logging-in.png)
 
 Proceed with this account if it's the correct one otherwise, if it's not the right one select the other option. If you don't have an account showing up, create an account. Follow [this guide](https://redbirdrobotics.github.io/core-documentation-site/docs/github/new.html) for more details about account creation.
 
@@ -51,7 +51,7 @@ Proceed with this account if it's the correct one otherwise, if it's not the rig
 
 Once you've signed in, GitHub will ask you if you want to "Authorize" GitHub Desktop to have access to your account. Just press Authorize to continue.
 
-![GitHub request for access to account](/assets/images/github-setup/requesting-access.png)
+![GitHub request for access to account]({{site.baseurl}}/assets/images/github-setup/requesting-access.png)
 
 Once you've authorized the application it will change to a new screen telling you it's safe to close the window and to proceed on the application.
 
@@ -59,7 +59,7 @@ Once you've authorized the application it will change to a new screen telling yo
 
 Back on the GitHub Desktop Application, you may be prompted to set up Git. I was, this is what it looked like for me.
 
-![configuring git on GitHub Desktop](/assets/images/github-setup/configuring-git.png)
+![configuring git on GitHub Desktop]({{site.baseurl}}/assets/images/github-setup/configuring-git.png)
 
 All this information needs to be is your name and email that are used on your GitHub account. They should automatically populate like they have for me so you shouldn't need to do anything otherwise.
 
@@ -67,7 +67,7 @@ All this information needs to be is your name and email that are used on your Gi
 
 Once the program's finished it's own work you should be shown the front page for GitHub Desktop. This marks the end of the initial setup for GitHub desktop.
 
-![github desktop front page](/assets/images/github-setup/gh-desktop-start-page.png)
+![github desktop front page]({{site.baseurl}}/assets/images/github-setup/gh-desktop-start-page.png)
 
 ## 6. Brief Room Tour
 
