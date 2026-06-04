@@ -5,11 +5,85 @@ nav_category: "GitHub"
 nav_order: 25
 ---
 
-# GitHub Setup Guide
+# GitHub Desktop Setup Guide
 
-Welcome! This guide will help you set up GitHub for all Redbird Robotics projects. We recommend using **GitHub Desktop** for simplicity, but advanced users can optionally use Git Bash.
+This guide will help you set up GitHub for all Redbird Robotics projects. We recommend using **GitHub Desktop** for simplicity, but advanced users can optionally use Git Bash. Use the quick links to skip to the portions you need info on.
+
+- [Installing GitHub Desktop](#installing)
+- [Setting Up GitHub Desktop](#setting-up)
+- [Cloning Repositories](#cloning)
+- [Committing Changes](#committing)
+- [Pushing and Pulling Work](#pushing-pulling)
+- [Creating Repositories](#creating)
+- [Creating Pull Requests and Merging Work](#prs)
 
 ---
+
+# Installing GitHub Desktop {#installing}
+
+You can get a quick link to installing GitHub Desktop through [the official download site](https://desktop.github.com/download/). This page provides the download for both the Windows and MacOS versions of GitHub Desktop.
+
+![GitHub Desktop download site](/assets/images/github-setup/github-desktop-download-site.png)
+
+Select the option that relates to you and download the program. Once downloaded, follow through with the installation as with any other program. Once it's done pull up the program to begin setup.
+
+---
+
+# Setting Up GitHub Desktop {#setting-up}
+
+## 1. First Time Launching
+
+Once the program is installed and opened for the first time you screen will prompt you to "Sign in to GitHub.com". This requires you to have had a GitHub account set up prior but if you haven't created one you will have the opportunity in the following steps.
+
+![GitHub Deskop first time launch screen](/assets/images/github-setup/first-time-launch.png)
+
+Press the "Sign in" button to proceed to the next step.
+
+## 2. Signing In
+
+Once you press the button a browser window will pop up. If you have already signed into GitHub on that browser before you will be prompted to continue with that account.
+
+![GitHub sign into account page](/assets/images/github-setup/logging-in.png)
+
+Proceed with this account if it's the correct one otherwise, if it's not the right one select the other option. If you don't have an account showing up, create an account. Follow [this guide](https://redbirdrobotics.github.io/core-documentation-site/docs/github/new.html) for more details about account creation.
+
+## 3. Requesting Access to Account
+
+Once you've signed in, GitHub will ask you if you want to "Authorize" GitHub Desktop to have access to your account. Just press Authorize to continue.
+
+![GitHub request for access to account](/assets/images/github-setup/requesting-access.png)
+
+Once you've authorized the application it will change to a new screen telling you it's safe to close the window and to proceed on the application.
+
+## 4. Setting Up Git
+
+Back on the GitHub Desktop Application, you may be prompted to set up Git. I was, this is what it looked like for me.
+
+![configuring git on GitHub Desktop](/assets/images/github-setup/configuring-git.png)
+
+All this information needs to be is your name and email that are used on your GitHub account. They should automatically populate like they have for me so you shouldn't need to do anything otherwise.
+
+## 5. And It's Done
+
+Once the program's finished it's own work you should be shown the front page for GitHub Desktop. This marks the end of the initial setup for GitHub desktop.
+
+![github desktop front page](/assets/images/github-setup/gh-desktop-start-page.png)
+
+## 6. Brief Room Tour
+
+To the left of the page you will see "Your repositories" which are all of the repositories you've created, accessed, or been given access to.
+
+To the right are the options to Create a new repo, Cloning one from a link or your list, or options from uploading or creating them from a local file. You will mostly only be using the top two options for the majority of your time using Git and GitHub.
+
+# Using GitHub - Cloning Repositories {#cloning}
+
+# Using GitHub - Committing Changes {#committing}
+
+# Using GitHub - Pushing and Pulling Work {#pushing-pulling}
+
+# Using GitHub - Creating Repositories {#creating}
+
+# Using GitHub - Pull Requests and Merging {#prs}
 
 ## 1. Create a GitHub Account
 
@@ -19,8 +93,6 @@ Welcome! This guide will help you set up GitHub for all Redbird Robotics project
 4. Choose a username that is **professional and consistent**, e.g., `first-last` or `first_last`.
 
 ---
-
-## 2. Install GitHub Desktop
 
 1. Download GitHub Desktop: [https://desktop.github.com](https://desktop.github.com)  
 2. Install and open the application.  
@@ -77,6 +149,8 @@ Welcome! This guide will help you set up GitHub for all Redbird Robotics project
 4. PRs allow other team members to review changes before merging.
 
 ---
+
+# Test Path
 
 ## 8. Optional: Using Git Bash
 
