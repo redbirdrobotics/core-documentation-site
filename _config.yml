@@ -1,0 +1,5 @@
+theme: minima
+baseurl: "/core-documentation"
+title: "Core Documentation"
+author: "speedrobotics@louisville.edu"
+description: "The Redbird Robotics documentation site."
