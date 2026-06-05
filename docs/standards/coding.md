@@ -1,8 +1,8 @@
 ---
 # File: docs/standards/coding.md
 title: "Coding Standards"
-nav_category: "Standards"
-nav_order: 45
+nav_category: Standards
+nav_order: 2
 ---
 
 # Coding Standards

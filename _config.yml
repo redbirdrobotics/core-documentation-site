@@ -5,5 +5,5 @@ author: "speedrobotics@louisville.edu"
 description: "The Redbird Robotics documentation site."
 favicon_png: "/assets/images/favicon.png"
 nav_categories:
-  - "GitHub"
-  - "Standards"
+  - GitHub
+  - Standards
