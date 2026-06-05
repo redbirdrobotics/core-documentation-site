@@ -1,8 +1,8 @@
 ---
 # File: docs/standards/cad.md
 title: "CAD Standards"
-nav_category: Standards
-nav_order: 1
+parent: Standards
+nav_order: 2
 ---
 
 # CAD Standards

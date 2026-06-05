@@ -1,8 +1,8 @@
 ---
 # File: docs/standards/electronics.md
 title: "Electronics Standards"
-nav_category: Standards
-nav_order: 3
+parent: Standards
+nav_order: 4
 ---
 
 # Electronics Standards
