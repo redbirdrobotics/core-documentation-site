@@ -10,7 +10,7 @@ For small edits, you can do them straight from the GitHub repository using the o
 
 When committing changes from the online editor you will be prompted with the following:
 
-![how to commit the changes on GitHub online]({{site.baseurl}}/assets/images/contribution/commit-changes-to-new-branch.png)
+![how to commit the changes on GitHub online](assets/images/contribution/commit-changes-to-new-branch.png)
 
 Select "Create a new branch" so that your changes can be reviewed by someone before they're submitted to make sure no errors were made and that structure is correct.
 
