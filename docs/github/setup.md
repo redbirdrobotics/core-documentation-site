@@ -2,25 +2,21 @@
 # File: docs/github/setup.md
 title: "GitHub Setup Guide"
 parent: GitHub
-nav_order: 3
+nav_order: 2
 ---
 
 # GitHub Desktop Setup Guide
 
 This guide will help you set up GitHub for all Redbird Robotics projects. We recommend using **GitHub Desktop** for simplicity, but advanced users can optionally use Git Bash. Use the quick links to skip to the portions you need info on.
 
-- [Installing GitHub Desktop](#installing)
-- [Setting Up GitHub Desktop](#setting-up)
-- *Using GitHub*
-  - [Cloning Repositories](#cloning)
-  - [Committing Changes](#committing)
-  - [Pushing and Pulling Work](#pushing-pulling)
-  - [Creating Repositories](#creating)
-  - [Creating Pull Requests and Merging Work](#prs)
+- [GitHub Desktop](#desktop)
+- [Git Bash](#bash)
+
+> Git Bash allows you to use written commands to use Git, for most users it is recommended to only use the GitHub Desktop as it makes using Git a lot easier and more intuitive. As a general rule, unless you're confident with [Command Line Interfaces](https://en.wikipedia.org/wiki/Command-line_interface), avoid Git Bash.
 
 ---
 
-# Installing GitHub Desktop {#installing}
+# Installing GitHub Desktop {#desktop}
 
 You can get a quick link to installing GitHub Desktop through [the official download site](https://desktop.github.com/download/). This page provides the download for both the Windows and MacOS versions of GitHub Desktop.
 
@@ -30,7 +26,7 @@ Select the option that relates to you and download the program. Once downloaded,
 
 ---
 
-# Setting Up GitHub Desktop {#setting-up}
+# Setting Up GitHub Desktop
 
 ## 1. First Time Launching
 
@@ -46,7 +42,7 @@ Once you press the button a browser window will pop up. If you have already sign
 
 ![GitHub sign into account page]({{site.baseurl}}/assets/images/github-setup/logging-in.png)
 
-Proceed with this account if it's the correct one otherwise, if it's not the right one select the other option. If you don't have an account showing up, create an account. Follow [this guide](https://redbirdrobotics.github.io/core-documentation-site/docs/github/new.html) for more details about account creation.
+Proceed with this account if it's the correct one otherwise, if it's not the right one select the other option. If you don't have an account showing up, create an account. Follow [the Quick Start checklist](https://redbirdrobotics.github.io/core-documentation-site/docs/github/quick-start.html) for a concise first-day walkthrough.
 
 ## 3. Requesting Access to Account
 
@@ -76,147 +72,14 @@ To the left of the page you will see "Your repositories" which are all of the re
 
 To the right are the options to Create a new repo, Cloning one from a link or your list, or options from uploading or creating them from a local file. You will mostly only be using the top two options for the majority of your time using Git and GitHub.
 
-# Using GitHub
+# Next Steps
 
----
+Now that you've finished setting up GitHub, you can should go to one of or all of the following pages to get started:
 
-## Cloning Repositories {#cloning}
+- [Git Concepts]({{site.baseurl}}/docs/github/concepts.md) to learn some common terminology.
+- [Git Using GitHub Desktop]({{site.baseurl}}/docs/github/using-desktop.md) to learn your way around GitHub Desktop.
+- [Git Standards]({{site.baseurl}}/docs/standards/git.md) to learn our Git usage standards for commits and contribution.
 
-Pulling work from existing repositories.
+# Installing Git Bash
 
----
-
-## Committing Changes {#committing}
-
-Committing changes you've made and keeping track of it.
-
----
-
-## Using Branches To Split Work
-
-How branches are used to keep different projects separate at the same time.
-
----
-
-## Pushing and Pulling Work {#pushing-pulling}
-
-Transferring work to and from the cloud for collaboration.
-
----
-
-## Creating Repositories {#creating}
-
-How to create repositories.
-
-### Starting From GitHub Desktop
-
-### Starting From github.com
-
----
-
-## Pull Requests and Merging {#prs}
-
-Merging work together.
-
-## 1. Create a GitHub Account
-
-1. Go to [https://github.com](https://github.com)  
-2. Click **Sign up** and follow the instructions.  
-3. Use your **personal email** if possible — your university email will disappear when you leave college, its nice to have a way to see your work once you're done.  
-4. Choose a username that is **professional and consistent**, e.g., `first-last` or `first_last`.
-
----
-
-1. Download GitHub Desktop: [https://desktop.github.com](https://desktop.github.com)  
-2. Install and open the application.  
-3. Sign in with your GitHub account.  
-4. Select **“Clone a repository”** when prompted.
-
-> GitHub Desktop handles Git for you — you do not need Git Bash unless you want to use the command line.
-
----
-
-## 3. Configure Git (Desktop handles most of this)
-
-1. In GitHub Desktop, go to **File → Options → Git**  
-2. Make sure your **Name** and **Email** match your GitHub account. your username is not used here
-3. Optional: Set your preferred editor (VS Code is recommended).
-
----
-
-## 4. Clone a Repository
-
-1. From GitHub Desktop, click **File → Clone Repository → URL**  
-2. Paste the repo URL (provided by your team lead, or by going to the repo on GitHub, hitting code, and copying the HTTPS URL)
-3. Choose a **local folder** to store the project. we recommend creating a dedicated folder for all redbird related projects  
-4. Click **Clone**
-
-> After cloning, you now have a local copy of the repository that syncs with GitHub.
-
----
-
-## 5. Making Changes
-
-1. Open the repository folder in your editor or CAD software.  
-2. Make changes to files (code, CAD, or documentation).  
-3. In GitHub Desktop, you will see **Changes** listed.  
-4. Write a descriptive **commit message** and click **Commit to `branch-name`**.  
-
-> Good commit messages help teammates understand your changes, e.g., “Fixed claw mate in arm assembly” or “Updated motor driver code.”
-
----
-
-## 6. Pushing Changes
-
-1. After committing, click **Push origin** in GitHub Desktop to upload your changes to GitHub.  
-2. If someone else has pushed changes since you last pulled, GitHub Desktop will prompt you to **pull first**.
-
----
-
-## 7. Branching Workflow
-
-1. Always work in a **branch**, never directly on `main`. Leave main for "stable versions" or working prototypes of your projects, and branch to work on individual features.
-2. Create a branch for your feature or part:  
-   - Example: `claw-assembly` or `motor-code`  
-3. Make your changes in that branch, then create a **Pull Request** (PR) on GitHub to merge into `main`.  
-4. PRs allow other team members to review changes before merging.
-
----
-
-# Test Path
-
-## 8. Optional: Using Git Bash
-
-If you want to use the command line, here are the basics:
-
-```bash
-# Clone a repo
-git clone <repo-url>
-
-# Check current branch
-git status
-
-# Create a new branch
-git checkout -b feature-branch
-
-# Stage changes
-git add <file> (or . for all changed files)
-
-# Commit changes
-git commit -m "Descriptive message"
-
-# Push to GitHub
-git push origin feature-branch
-
-# Pull latest changes from main
-git pull origin main
-```
-
-> Only use Git Bash if you’re comfortable with the commands. GitHub Desktop handles all of this visually.
-
-## 9. Best Practices
-
-- Pull before starting work on the assembly or code. this helps prevent conflicts with independent work.
-- Commit often, but make messages clear and descriptive.
-- Work on separate files or subassemblies to minimize merge conflicts.
-- Communicate when making major assembly edits — only one person edits the assembly at a time if possible.
+> Again, as a general warning, this is only a good idea for those comforable with Linux-like commands.
